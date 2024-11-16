@@ -24,8 +24,8 @@ let weather ={
       document.querySelector(".humidity").innerText = "Humidity: " +humidity+"%";
       document.querySelector(".wind").innerText = "Wind speed: " +speed+"km/h";
       document.querySelector(".weather").classList.remove("loading");
-      document.body.style.backgroundImage =
-      "url('https://source.unsplash.com/1600x900/?" + name + "')";
+      // document.body.style.backgroundImage =
+      // "url(https://c4.wallpaperflare.com/wallpaper/299/249/312/4k-ocean-clouds-sea-wallpaper-preview.jpg)";
 },
 search:function(){
    this.fetchWeather(document.querySelector(".search-bar").value);

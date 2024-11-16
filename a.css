@@ -4,7 +4,8 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('http://source.unsplash.com/1600x900/?landscape');
+
+    background: linear-gradient(135deg, #ff7eb3, #ff758c, #fce043);
     font-family: sans-serif;
     font-size: 120%;
    
